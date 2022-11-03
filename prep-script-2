@@ -2,4 +2,10 @@ sudo modprobe dm-crypt
 sudo cryptsetup luksOpen /dev/nvme0n1p3 crypt1
 sudo vgscan --mknodes
 sudo vgchange -ay
+
+sudo mkdir /media/ubuntu/rhel-root; 
+sudo mkdir /media/ubuntu/rhel-home;
+sudo mount /dev/mapper/rhel-root /media/ubuntu/rhel-root
+sudo mount /dev/mapper/rhel-home /media/ubuntu/rhel-home
+
 echo "done!"
