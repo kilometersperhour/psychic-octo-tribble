@@ -1,0 +1,177 @@
+    1  passwd
+    2  ssh localhost
+    3  sudo apt install ssh
+    4  ssh localhost
+    5  cd .ssh
+    6  ls
+    7  touch authorized_keys
+    8  echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzU06csGglfjme4TMtdWnk2Ej8iz2xOUHKtuSutQYKPjogxdHaCWLiTN8JKrz/zin30PXUP51CmNC61i58fvqURhSS8yvU6v2Ml3oXceeAB+60TlveIR9vRqIxhdZHDWu2lpdwxICjaGQAROqfOhaCmGjHv/vMskae21Y1joX45Q9mS9DNknVkL3xY26v+7q9QIzmIVQSw+smPLTKcILUFNXBF01yO4Np2gVkenmyWJqbPnow2yEES4pU0Suc92IoLHtFbbAasbLHtTugjforkVHG4sU12Z66O2tAg+epehoXKFXZehCJNT1GiwnZvLieyMYevOjUUfge7eX+r+9bMZVujGIOL+FXFVKTmZc4Csu5OiQmxkTg2xjESt0mCg7Zm57IqD3o9EOzMrdaWaTlDvGd9k77mhqiwV/ChRkuyK13ilb6Ux42+7EGL46HhaixY+kpRHwNk5eDFikLHiMJhW69Qzup/S1CLZWPgMUvoW8azSQWA/MfjlDS4Wk+Y7N0=" >> authorized_keys 
+    9  cat authorized_keys 
+   10  sudoedit /etc/ssh/sshd_config
+   11  sudo systemctl restart sshd
+   12  ssh localhost
+   13  ip a
+   14  gparted
+   15  sudo apt-get update && sudo apt-get install lvm2 cryptsetup
+   16  sudo modprobe dm-crypt
+   17  sudo cryptsetup luksOpen /dev/nvme0n1p3 crypt1
+   18  sudo vgscan --mknodes
+   19  sudo vgchange -ay
+   20  lsblk
+   21  blkid
+   22  sudo umount /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449 
+   23  sudo mkdir /media/ubuntu/rhel-home; sudo mkdir /media/ubuntu/rhel-root; sudo mount /dev/nvme0n1p3/crypt1/rhel-home /media/rhel-home
+   24  ls /media/ubuntu
+   25  sudo mount /dev/nvme0n1p3/crypt1/rhel-home /media/rhel-home
+   26  ls /dev
+   27  man vgchange
+   28  sudo vgscan
+   29  sudo vgscan --verbose
+   30  sudo vgscan --mknodes --verbose
+   31  sudo vgchange -ay --verbose
+   32  sudo lvdisplay
+   33  ls /dev/rhel
+   34  lsblk
+   35  sudo mount /dev/rhel/home/ /media/ubuntu/rhel-home/
+   36  sudo mount /dev/rhel/home /media/ubuntu/rhel-home/
+   37  lsblk
+   38  sudo mount /dev/rhel/root /media/ubuntu/rhel-root/
+   39  lsblk
+   40  lspci
+   41  lspci | grep RAM
+   42  lspci | grep memory
+   43  df -h
+   44  free
+   45  htop
+   46  top
+   47  gparted
+   48  sudo gparted
+   49  man gparted
+   50  sudo gparted /dev/rhel
+   51  sudo gparted /media/ubuntu/rhel-home /media/ubuntu/rhel-root
+   52  sudo e2fsck -f /dev/mapper/crypt1
+   53  lsblk
+   54  sudo umount /dev/rhel/rhel-home
+   55  sudo e2fsck -f /dev/mapper/crypt1
+   56  man e2fsck
+   57  sudo e2fsck -f /dev/mapper/crypt1 -f
+   58  ls /dev/mapper
+   59  sudo e2fsck -f /dev/mapper/rhel-home
+   60  sudo e2fsck -f -b 8193 /dev/mapper/rhel-home
+   61  fsck.xfs /dev/mapper/rhel-home
+   62  man fsck
+   63  fsck /dev/mapper/rhel-home
+   64  sudo fsck /dev/mapper/rhel-home
+   65  xfs_repair 
+   66  man xfs_repair
+   67  xfs_repair -V
+   68  xfs_repair /dev/mapper/rhel-home
+   69  sudo xfs_repair /dev/mapper/rhel-home
+   70  sudo xfs_repair /dev/mapper/rhel-root
+   71  git clone
+   72  sudo apt install git
+   73  cd ~
+   74  git clone https://github.com/kilometersperhour/psychic-octo-tribble.git
+   75  sudo apt install tmux
+   76  tmux new -s ssh
+   77  /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/
+   78  ls /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/
+   79  lsblk
+   80  ls /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/
+   81  sudo ls /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/
+   82  sudo ls /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/ -lah
+   83  cp /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/.bash_history .
+   84  sudo cp /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449/emanetoglu/.bash_history ./emanetoglu_bash_history
+   85  ls -lah
+   86  less emanetoglu_bash_history 
+   87  sudo less emanetoglu_bash_history 
+   88  sudo chmod 777 emanetoglu_bash_history 
+   89  ls -lah
+   90  chown miles:miles emanetoglu_bash_history 
+   91  chown miles emanetoglu_bash_history 
+   92  chown ubuntu emanetoglu_bash_history 
+   93  sudo chown ubuntu emanetoglu_bash_history 
+   94  ls -lah
+   95  sudo chown ubuntu:ubuntu emanetoglu_bash_history 
+   96  ls -lah
+   97  sudo mount /dev/mapper/rhel-root /media/ubuntu/rhel-root
+   98  sudo mount /dev/mapper/rhel-home /media/ubuntu/rhel-home
+   99  clear
+  100  man resize2fs
+  101  sudo umount /media/ubuntu/
+  102  sudo umount /media/ubuntu/fa12b3d7-0528-4e64-934d-a53d43820449 
+  103  sudo umount /media/ubuntu/rhel-home 
+  104  sudo umount /media/ubuntu/rhel-root
+  105  lsblk
+  106  sudo resize2fs -p /dev/mapper/rhel-home 75g
+  107  sudo mount /dev/mapper/rhel-root /media/ubuntu/rhel-root
+  108  sudo mount /dev/mapper/rhel-home /media/ubuntu/rhel-home
+  109  lsblk
+  110  free
+  111  df -h
+  112  apt search xfsdump
+  113  sudo apt install xfsdump
+  114  lsblk
+  115  sudo gparted
+  116  lsblk
+  117  mkdir /media/ubuntu/usb-backup
+  118  sudo mkdir /media/ubuntu/usb-backup
+  119  sudo mount /dev/sdc/sdc1 /media/ubuntu/usb-backup/ 
+  120  sudo mount /dev/sdc/ /media/ubuntu/usb-backup/ 
+  121  lsblk
+  122  xfsdump -l 0 f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image /media/ubuntu/rhel-home
+  123  sudo xfsdump -l 0 f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image /media/ubuntu/rhel-home
+  124  sudo xfsdump -l 0 -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image /media/ubuntu/rhel-home
+  125  ls /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image
+  126  ls /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image -lah
+  127  sudo umount /dev/mapper/rhel-home
+  128  lsblk
+  129  lvremove /dev/mapper/rhel-home
+  130  sudo lvremove /dev/mapper/rhel-home
+  131  vgs
+  132  sudo vgs
+  133  sudo lvcreate -L 100G -n rhel-home rhel
+  134  vgs
+  135  sudo vgs
+  136  sudo lvdisplay
+  137  ls /dev/mapper
+  138  sudo lvremove /dev/mapper/rhel-rhel--home
+  139  lsblk
+  140  sudo lvremove /dev/mapper/rhel-rhel--home
+  141  sudo lvcreate -L 100G -n home rhel
+  142  sudo lvdisplay
+  143  ls /dev/mapper
+  144  vgs
+  145  sudo vgs
+  146  mkfs.xfs /dev/mapper/rhel-home
+  147  sudo mkfs.xfs /dev/mapper/rhel-home
+  148  lsblk
+  149  sudo mount /dev/mapper/rhel-home /media/ubuntu/rhel-home
+  150  lsblk
+  151  ll /media/ubuntu/home
+  152  ll /media/ubuntu/rhel-home
+  153  xfsrestore -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image /media/ubuntu/rhel-home
+  154  sudo xfsrestore -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/home.image /media/ubuntu/rhel-home
+  155  ll /media/ubuntu/rhel-home
+  156  df -h /media/ubuntu/rhel-home
+  157  history
+  158  xfsdump -l 0 -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/root.image /dev/mapper/rhel-root
+  159  sudo xfsdump -l 0 -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/root.image /dev/mapper/rhel-root
+  160  ls -l /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/root.image -lah
+  161  sudo umount /dev/mapper/rhel-root
+  162  lsblk
+  163  sudo lvremove /dev/mapper/rhel-root
+  164  sudo vgs
+  165  sudo lvcreate -L 333G -n root rhel
+  166  vgs
+  167  sudo vgs
+  168  sudo lvdisplay
+  169  sudo mkfs.xfs /dev/mapper/rhel-root
+  170  sudo mount /dev/mapper/rhel-root /media/ubuntu/rhel-root
+  171  lsblk
+  172  ll /media/ubuntu/rhel-home
+  173  ll /media/ubuntu/rhel-root
+  174  xfsrestore -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/root.image /media/ubuntu/rhel-root
+  175  sudo xfsrestore -f /media/ubuntu/03e384be-f7cf-4b54-91ff-04658c7881ca/root.image /media/ubuntu/rhel-root
+  176  ll /media/ubuntu/rhel-root
+  177  history > liveusb_bash_history

@@ -1,0 +1,9 @@
+sudo apt update
+sudo apt install cryptsetup lvm2 tmux ssh xfsdump
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzU06csGglfjme4TMtdWnk2Ej8iz2xOUHKtuSutQYKPjogxdHaCWLiTN8JKrz/zin30PXUP51CmNC61i58fvqURhSS8yvU6v2Ml3oXceeAB+60TlveIR9vRqIxhdZHDWu2lpdwxICjaGQAROqfOhaCmGjHv/vMskae21Y1joX45Q9mS9DNknVkL3xY26v+7q9QIzmIVQSw+smPLTKcILUFNXBF01yO4Np2gVkenmyWJqbPnow2yEES4pU0Suc92IoLHtFbbAasbLHtTugjforkVHG4sU12Z66O2tAg+epehoXKFXZehCJNT1GiwnZvLieyMYevOjUUfge7eX+r+9bMZVujGIOL+FXFVKTmZc4Csu5OiQmxkTg2xjESt0mCg7Zm57IqD3o9EOzMrdaWaTlDvGd9k77mhqiwV/ChRkuyK13ilb6Ux42+7EGL46HhaixY+kpRHwNk5eDFikLHiMJhW69Qzup/S1CLZWPgMUvoW8azSQWA/MfjlDS4Wk+Y7N0=" > ~/.ssh/authorized_keys
+sudoedit /etc/ssh/sshd_config
+sudo modprobe dm-crypt
+sudo cryptsetup luksOpen /dev/nvme0n1p3 crypt1
+sudo vgscan --mknodes
+sudo vgchange -ay
+echo "done!"
