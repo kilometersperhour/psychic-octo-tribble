@@ -1,0 +1,1000 @@
+ls
+mkdir Documents/dell_drivers_installation
+mv nvidia-graphic-webpost-A00-390.48.tar.gz Documents/dell_drivers_installation/
+sudo yum install tmux
+yum repolist all
+subscription-manager repos --enable
+sudo subscription-manager repos --enable
+yum check-update
+sudo subscription-manager repos --enable rhel-7-server-rpms
+yum update
+sudo yum update
+subscription-manager
+sudo subscription-manager
+sudo subscription-manager list
+sudo subscription-manager repos
+sudo subscription-manager attach
+sudo subscription-manager register --help
+ls
+which dpkg-reconfigure
+dpkg-reconfigure
+ls
+cd Documents/
+ls
+cd dell_drivers_installation/
+ls
+tar -zxvf nvidia-graphic-webpost-A00-390.48.tar.gz 
+ls
+cd nvidia-graphic-webpost-A00-390.48/
+ls
+less How\ to\ Install.txt 
+sudo cp /etc/default/grub /etc/default/grub.bak
+diff /etc/default/grub /etc/default/grub.bak
+nano /etc/default/grub
+sudoedit /etc/default/grub
+exit
+less /var/log/boot.log
+sudo less /var/log/boot.log
+sudo less /var/log/messages
+sudoedit /etc/default/grub
+sudo reboot
+sudoedit /etc/default/grub
+sudo reboot
+sudo update-grub
+sudo sudo grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
+sudo grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
+reboot
+cd Documents/dell_drivers_installation/nvidia-graphic-webpost-A00-390.48/
+ls
+less How\ to\ Install.txt 
+sudoedit /etc/default/grub
+sudo grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
+sudo reboot
+ls
+./setup.sh
+ls doc
+firefox snps_installercd foss
+ls
+cd foss
+cd docs
+ls
+cd doc/foss
+ls
+cd ..
+;s
+cd ..
+ls
+installer -gui
+./installer -gui
+mkdir /synopsys
+sudo mkdir /synopsys
+chown /synopsys/
+chown emanetoglu:emanetoglu /synopsys/
+sudo chown emanetoglu:emanetoglu /synopsys/
+mkdir scl
+la
+ls
+pwd
+cd scl/admin
+cd scl
+ls
+cd 2021.12/
+ls
+cd admin
+ls
+cd license
+ls
+cp '/home/emanetoglu/Downloads/Synopsys_Key_Site_21195_Server_335169_snpslmd.txt' .
+ls
+mv Synopsys_Key_Site_21195_Server_335169_snpslmd.txt synopsys.lic
+which sssverify
+sssverify
+cd ..
+ls
+cd ..
+ls
+cd linux64/
+ls
+cd bin
+ls
+cd ...
+cd ..
+ls
+cd ..
+pwd
+ls
+ls linux64/
+cd linux64/bin/
+ls
+pwd
+cd ..
+ls
+cd ..
+l
+ls
+cd admin
+ls
+cd license/
+ls
+pwd
+ls
+/opt/synopsys/scl/2021.12/linux64/bin/sssverify ./synopsys.lic 
+pwd
+/opt/synopsys/scl/2021.12/linux64/bin/lmhostid 
+lmhostid
+ls
+cd ~
+ls
+cd Documents/
+sl
+ls
+cd dell_drivers_installation/
+ls
+cd nvidia-graphic-webpost-A00-390.48/
+ls
+less How\ to\ Install.txt 
+cksum ./*
+./SynopsysInstaller_v5.5.run 
+less How\ to\ Install.txt 
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzU06csGglfjme4TMtdWnk2Ej8iz2xOUHKtuSutQYKPjogxdHaCWLiTN8JKrz/zin30PXUP51CmNC61i58fvqURhSS8yvU6v2Ml3oXceeAB+60TlveIR9vRqIxhdZHDWu2lpdwxICjaGQAROqfOhaCmGjHv/vMskae21Y1joX45Q9mS9DNknVkL3xY26v+7q9QIzmIVQSw+smPLTKcILUFNXBF01yO4Np2gVkenmyWJqbPnow2yEES4pU0Suc92IoLHtFbbAasbLHtTugjforkVHG4sU12Z66O2tAg+epehoXKFXZehCJNT1GiwnZvLieyMYevOjUUfge7eX+r+9bMZVujGIOL+FXFVKTmZc4Csu5OiQmxkTg2xjESt0mCg7Zm57IqD3o9EOzMrdaWaTlDvGd9k77mhqiwV/ChRkuyK13ilb6Ux42+7EGL46HhaixY+kpRHwNk5eDFikLHiMJhW69Qzup/S1CLZWPgMUvoW8azSQWA/MfjlDS4Wk+Y7N0= monda@scribblenaut" >> ~/.ssh/authorized_keys
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzU06csGglfjme4TMtdWnk2Ej8iz2xOUHKtuSutQYKPjogxdHaCWLiTN8JKrz/zin30PXUP51CmNC61i58fvqURhSS8yvU6v2Ml3oXceeAB+60TlveIR9vRqIxhdZHDWu2lpdwxICjaGQAROqfOhaCmGjHv/vMskae21Y1joX45Q9mS9DNknVkL3xY26v+7q9QIzmIVQSw+smPLTKcILUFNXBF01yO4Np2gVkenmyWJqbPnow2yEES4pU0Suc92IoLHtFbbAasbLHtTugjforkVHG4sU12Z66O2tAg+epehoXKFXZehCJNT1GiwnZvLieyMYevOjUUfge7eX+r+9bMZVujGIOL+FXFVKTmZc4Csu5OiQmxkTg2xjESt0mCg7Zm57IqD3o9EOzMrdaWaTlDvGd9k77mhqiwV/ChRkuyK13ilb6Ux42+7EGL46HhaixY+kpRHwNk5eDFikLHiMJhW69Qzup/S1CLZWPgMUvoW8azSQWA/MfjlDS4Wk+Y7N0= monda@scribblenaut" > ~/.ssh/authorized_keys
+mkdir ~/.ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCzU06csGglfjme4TMtdWnk2Ej8iz2xOUHKtuSutQYKPjogxdHaCWLiTN8JKrz/zin30PXUP51CmNC61i58fvqURhSS8yvU6v2Ml3oXceeAB+60TlveIR9vRqIxhdZHDWu2lpdwxICjaGQAROqfOhaCmGjHv/vMskae21Y1joX45Q9mS9DNknVkL3xY26v+7q9QIzmIVQSw+smPLTKcILUFNXBF01yO4Np2gVkenmyWJqbPnow2yEES4pU0Suc92IoLHtFbbAasbLHtTugjforkVHG4sU12Z66O2tAg+epehoXKFXZehCJNT1GiwnZvLieyMYevOjUUfge7eX+r+9bMZVujGIOL+FXFVKTmZc4Csu5OiQmxkTg2xjESt0mCg7Zm57IqD3o9EOzMrdaWaTlDvGd9k77mhqiwV/ChRkuyK13ilb6Ux42+7EGL46HhaixY+kpRHwNk5eDFikLHiMJhW69Qzup/S1CLZWPgMUvoW8azSQWA/MfjlDS4Wk+Y7N0= monda@scribblenaut" >> ~/.ssh/authorized_keys
+exit
+exiit
+exit
+nano /etc/ssh/sshd_config 
+nano /etc/ssh/ssh_config 
+sudo nano /etc/ssh/ssh_config 
+sudo systemctl daemon-reload 
+sudo systemctl restart ssh
+sudo systemctl restart sshd
+sudo systemctl status sshd
+sudo nano /etc/ssh/ssh_config 
+chmod -R go= ~/.ssh
+ls -l
+ls -la
+ls -lh
+ls -lha
+ls ~
+ls ~ -l
+ls ~ -la
+sudo systemctl restart sshd.service
+dnf repolist
+dnf
+subscription-manager register --username=NuriEmanetoglu --password=B1ackBear!
+sudo subscription-manager register --username=NuriEmanetoglu --password=B1ackBear!
+sudo yum
+yum repolist
+sudo passwd root
+;s
+ls
+sudo rpm -ivh prelink-0.5.0-9.el7.x86_64.rpm
+sudo rpm -ivh dkms-2.6-1.el7.noarch.rpm
+sh NVIDIA-3XX-x86_64.run
+ls
+sh NVIDIA-Linux-x86_64-390.48.run
+sudo sh NVIDIA-Linux-x86_64-390.48.run
+exit
+less How\ to\ Install.txt 
+exit
+cd Documents/dell_drivers_installation_downloads_temp/
+ls
+cd nvidia-graphic-webpost-A00-390.48/
+ls
+sudo sh NVIDIA-Linux-x86_64-390.48.run 
+sudo service lightdm stop
+sudo init 3
+sudo sh NVIDIA-Linux-x86_64-390.48.run 
+sudo sh NVIDIA-Linux-x86_64-390.48.run --no-drm
+cd Documents/dell_drivers_installation_downloads_temp/
+ls
+sudo yum install tmux
+sudo init 5
+sudo reboot
+man init
+sudo service gdm start
+sudo systemctl start lightdm
+sudo systemctl start kdm
+sudo sh NVIDIA-Linux-x86_64-390.48.run --uninstall
+cd Documents/dell_drivers_installation_downloads_temp/nvidia-graphic-webpost-A00-390.48/
+sudo sh NVIDIA-Linux-x86_64-390.48.run --uninstall
+sudo sh NVIDIA-Linux-x86_64-390.48.run --no-drm
+sudo init 3
+sudo sh NVIDIA-Linux-x86_64-390.48.run --no-drm
+mokutil --import /usr/share/nvidia/nvidia-modsign-crt-253B251B.der
+sudo mokutil --import /usr/share/nvidia/nvidia-modsign-crt-253B251B.der
+sudo reboot
+sudo mokutil --import /usr/share/nvidia/nvidia-modsign-crt-253B251B.der
+sudo reboot
+exit
+keyctl list %:.system_keyring
+cd Documents/dell_drivers_installation_downloads_temp/nvidia-graphic-webpost-A00-390.48/
+ls
+tmux new -s split
+sudoedit /etc/X11/grub2-efi.cfg
+sudo reboot
+less How\ to\ Install.txt 
+sudo init 5
+rpm -qa | grep gnome-desktop
+yum groupinstall "Server with GUI"
+sudo yum groupinstall "Server with GUI"
+systemctl set-default graphical.target
+sudo systemctl set-default graphical.target
+sudo systemctl get-default
+systemctl isolate graphical.target
+sudo reboot
+systemctl list-units --type=target
+who -r
+mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img
+sudo mv /boot/initramfs-$(uname -r).img /boot/initramfs-$(uname -r)-nouveau.img
+dracut /boot/initramfs-$(uname -r).img $(uname -r)
+sudo dracut /boot/initramfs-$(uname -r).img $(uname -r)
+reboot
+sudoedit /etc/default/grub
+sudo nano /etc/default/grub
+sudo grub2-mkconfig -o /boot/efi/EFI/redhat/grub.cfg
+sudo reboot
+systemctl get-default
+systemctl status graphical.target
+systemctl status graphical.target -l
+less /var/log/Xorg.0.log
+sudo nano /etc/X11/xorg.conf.d/20-server_flags.conf
+sudo reboot
+ls
+cd Documents/
+ls
+cd dell_drivers_installation_downloads_temp/
+ls
+sudo yum update
+yum check-update
+yum update
+sudo yum update
+rpm -Va --nofiles --nodigest
+sudo yum update
+nano /etc/yum/pluginconf.d/search-disabled-repos.conf
+sudo nano /etc/yum/pluginconf.d/search-disabled-repos.conf
+sudo yum update
+sudo yum update --skip-broken
+sudo yum install libX11-1.6.7-3.el7_9.x86_64 
+sudo reboot
+sudo yum install libX11-1.6.7-2.el7.x86_64
+sudo reboot
+cd Documents/dell_drivers_installation_downloads_temp/
+ls
+wget https://www.nvidia.com/content/DriverDownload-March2009/confirmation.php?url=/XFree86/Linux-x86_64/390.151/NVIDIA-Linux-x86_64-390.151.run&lang=us&type=TITAN
+ls
+curl https://us.download.nvidia.com/XFree86/Linux-x86_64/390.151/NVIDIA-Linux-x86_64-390.151.run
+clear
+wget https://us.download.nvidia.com/XFree86/Linux-x86_64/390.151/NVIDIA-Linux-x86_64-390.151.run
+ls
+rm confirmation.php\?url\=%2FXFree86%2FLinux-x86_64%2F390.151%2FNVIDIA-Linux-x86_64-390.151.run 
+ls
+chmod +x NVIDIA-Linux-x86_64-390.151.run 
+./NVIDIA-Linux-x86_64-390.151.run 
+sudo ./NVIDIA-Linux-x86_64-390.151.run 
+sudo init 3
+sudo ./NVIDIA-Linux-x86_64-390.151.run 
+sudo reboot\
+sudo reboot
+history | grep mok
+sudo mokutil --import /usr/share/nvidia/nvidia-modsign-crt-2C9E5517.der 
+sudo reboot
+sudo nano /etc/X11/xorg.conf.d/20-server_flags.conf 
+sudo reboot
+./setup.sh 
+exit
+tmux new -s synopsys
+exit
+uptime
+cat /etc/os-release
+sudo subscription-manager repos --enable rhel-7-server-rpms
+yum install yum-cron
+sudo yum install yum-cron
+cat /etc/yum/yum-cron.conf
+nano /etc/yum/yum-cron.conf
+sudo nano /etc/yum/yum-cron.conf
+sudo systemctl enable yum-cron
+sudo systemctl start yum-cron
+sudo nano /etc/yum/yum-cron.conf
+sudo yum upgrade
+rm -fr /var/cache/yum/*
+sudo rm -fr /var/cache/yum/*
+yum clean all 
+sudo yum upgrade
+sudo nano /etc/rhsm/rhsm.conf 
+ls /etc/yum.repos.d/redhat.repo
+ls /etc/yum.repos.d/
+cat /etc/yum.repos.d/redhat.repo
+cat /etc/yum.repos.d/redhat.repo | less
+sudo vim /etc/yum.repos.d/redhat.repo 
+sudo yum upgrade
+sudo vim /etc/yum.repos.d/redhat.repo 
+yum repolist
+sudo yum upgrade
+sudo yum-config-manager --disable amq-interconnect-textonly-1-for-middleware-rpms
+sudo yum upgrade
+sudo subscription-manager repos --disable=rhel-7-server-e4s-debug-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-debug-rpms
+sudo yum upgrade
+yum-config-manager --disable rhel-7-server-e4s-optional-debug-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-optional-debug-rpms
+sudoyum update
+sudo yum update
+yum-config-manager --disable rhel-7-server-e4s-optional-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-optional-rpms
+sudo yum update
+yum-config-manager --disable rhel-7-server-e4s-optional-source-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-optional-source-rpms
+sudo yum upgrade
+sudo yum --disablerepo=rhel-7-server-e4s-rpms upgrade
+sudo yum --disablerepo=rhel-7-server-e4s-rpms upgrade --disablerepo=rhel-7-server-e4s-satellite-client-6-debug-rpms
+kill 11736
+sudo kill 11736
+sudo yum --disablerepo=rhel-7-server-e4s-rpms upgrade --disablerepo=rhel-7-server-e4s-satellite-client-6-debug-rpms
+exit
+ls
+cd Documents/
+ls
+cd synopsys_installation_downloads_temp/
+ls
+./SynopsysInstaller_v5.5.run 
+less scl_INSTALL_README.txt 
+less ./installer_INSTALL_README_5.1.txt 
+tmux attach
+tmux new -s installsynopsys
+startx
+sudo startx
+reboot
+gedit /etc/inittab
+sudo su
+sudoedit 
+sudoedit /etc/inittab
+systemctl get-default
+sudo systemctl set-default graphical.target
+sudo rebott
+sudo reboot
+startx
+yum install xserver-xorg-video-fbdev
+sudo yum install xserver-xorg-video-fbdev
+sudo yum update
+less ~/.local/share/xorg/Xorg.0.log
+startx
+sudo startx
+less /var/log/Xorg.0.log
+dmesg
+dmesg | less
+less /var/log/boot.log
+sudo less /var/log/boot.log
+less /var/log/Xorg.0.log
+sudo modprobe nvidia
+dmesg | grep nvidia
+yum install nvidia-dkms
+sudo yum install nvidia-dkms
+subscription-manager repos --enable=rhel-7-workstation-optional-rpms
+sudo subscription-manager repos --enable=rhel-7-workstation-optional-rpms
+subscription-manager repos --list
+sudo subscription-manager repos --list
+sudo subscription-manager repos --list | grep enabled
+nano
+cat ~/greppable.txt | grep Enabled:\w0
+cat ~/greppable.txt | grep "Enabled:"
+less greppable.txt 
+subscription-manager repos --enable=rhel-7-workstation-optional-rpms
+sudo subscription-manager repos --enable=rhel-7-workstation-optional-rpms
+cat greppable.txt | grep "rhel-7-workstation-optional-rpms"
+sudo yum-config-manager --add-repo=http://developer.download.nvidia.com/compute/cuda/preview/repos/rhel7/x86_64/techpreview_nvidia_rh_drv.repo
+sudo yum install yum-plugin-nvidia
+subscription-manager repos --disable=rhel-7-server-e4s-rpms
+sudo subscription-manager repos --disable=rhel-7-server-e4s-rpms
+yum-config-manager --disable rhel-7-server-e4s-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-client-6-debug-rpms
+sudo subscription-manager repos --disable=rhel-7-server-e4s-satellite-client-6-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-client-6-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-client-6-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.1-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.1-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.1-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.10-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.10-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.10-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum --disablerepo=rhel-7-server-e4s-satellite-tools-6.2-debug-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.2-debug-rpms
+sudo yum install yum-plugin-nvidia
+yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.2-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.2-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.2-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.3-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.3-puppet4-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.3-puppet4-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.3-puppet4-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.3-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.3-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.4-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.4-rpms
+sudo yum install yum-plugin-nvidia
+sudo reboot
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.4-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.5-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.5-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.5-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.6-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.6-rpms
+sudo yum install yum-plugin-nvidia
+sudo  yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.6-source-rpms
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.6-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.7-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.7-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.7-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.8-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.8-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.8-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.9-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.9-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-satellite-tools-6.9-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-e4s-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-optional-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-optional-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-optional-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-rhn-tools-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudoyum-config-manager --disable rhel-7-server-eus-rhn-tools-rpms
+sudo yum-config-manager --disable rhel-7-server-eus-rhn-tools-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-rhn-tools-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.1-debug-rpms
+man yum
+yum repoinfo
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.1-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.1-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.2-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.2-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.2-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.3-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.3-puppet4-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.3-puppet4-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.3-puppet4-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.3-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.3-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.4-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.4-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.4-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.5-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.5-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.5-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.6-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.6-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.6-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.7-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.7-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.7-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo reboot
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.8-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.8-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.8-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.9-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.9-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-satellite-tools-6.9-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-supplementary-debuginfo
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-supplementary-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-supplementary-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-thirdparty-oracle-java-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-eus-thirdparty-oracle-java-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-ose-4.11-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-ose-4.11-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-rhmt-1.2-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-rhmt-1.2-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-rhmtc-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-rhmtc-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-7-server-satellite-maintenance-6.11-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-atomic-7-cdk-3.5-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-atomic-7-cdk-3.5-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-atomic-7-cdk-3.6-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-atomic-7-cdk-3.6-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-ha-for-rhel-7-server-e4s-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-ha-for-rhel-7-server-e4s-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-ha-for-rhel-7-server-e4s-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-ha-for-rhel-7-server-eus-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-ha-for-rhel-7-server-eus-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-ha-for-rhel-7-server-eus-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-rs-for-rhel-7-server-eus-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-rs-for-rhel-7-server-eus-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-rs-for-rhel-7-server-eus-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-for-rhel-7-server-e4s-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-for-rhel-7-server-e4s-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-for-rhel-7-server-e4s-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-for-rhel-7-server-eus-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-for-rhel-7-server-eus-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-for-rhel-7-server-eus-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-hana-for-rhel-7-server-e4s-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-hana-for-rhel-7-server-e4s-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-hana-for-rhel-7-server-e4s-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-hana-for-rhel-7-server-eus-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-hana-for-rhel-7-server-eus-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-sap-hana-for-rhel-7-server-eus-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-server-rhscl-7-eus-debug-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-server-rhscl-7-eus-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum-config-manager --disable rhel-server-rhscl-7-eus-source-rpms
+sudo yum install yum-plugin-nvidia
+sudo yum update
+sudo reboot
+startx
+less /var/log/Xorg.0.log
+sudo yum install nvidia-driver-latest
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+startx
+sudo reboot
+startx
+sudo startx
+less /var/log/Xorg.0.log
+sudo yum install cuda-drivers
+sudo yum install nvidia-driver
+sudo yum install nvidia-driver-latest-dkms
+startx
+sudo reboot
+sudo startx
+sudo yum install nvidia-driver-latest
+sudo yum install cuda-drivers
+sudo yum install nvidia-driver
+sudo yum install nvidia-driver-latest-dkms-diagnostic
+sudo startx
+sudo reboot
+sudo startx
+pciconfig -l | grep VGA
+lspci
+lspci | grep vga
+sudo yum install pciconfig
+sudoedit /etc/X11/xorg.conf
+lspci -nn | grep vga
+lspci -nn
+sudoedit /etc/X11/xorg.conf
+nvidia-detect
+sudo yum install nvidia-detect
+yum install https://www.elrepo.org/elrepo-release-7.el7.elrepo.noarch.rpm
+sudo yum install https://www.elrepo.org/elrepo-release-7.el7.elrepo.noarch.rpm
+sudo yum install nvidia-detect
+nvidia-detect
+nvidia-detect -v
+yum install $(nvidia-detect)
+sudo yum install $(nvidia-detect)
+sudo yum remove nvidia-driver
+sudo yum install $(nvidia-detect)
+ps aux | grep yum
+sudo yum install $(nvidia-detect)
+sudo yum remove nvidia-driver
+sudo reboot
+sudo yum remove $(nvidia-detect)
+yum --redo-last
+yum history
+sudo yum history
+yum history undo 21
+sudo yum history undo 21
+yum-complete-transaction --cleanup-only
+sudo yum-complete-transaction --cleanup-only
+sudo yum history
+sudo yum history redo force-reinstall 21
+sudo reboot
+startx
+sudo startx
+dmesg
+dmesg | less
+wget https://elrepo.org/SECURE-BOOT-KEY-elrepo.org.der
+mokutil --import /etc/pki/elrepo/SECURE-BOOT-KEY-elrepo.org.der
+sudo mokutil --import /etc/pki/elrepo/SECURE-BOOT-KEY-elrepo.org.der
+sudo reboot
+find / -name synopsys
+./SynopsysInstaller_v5.5.run 
+cd /usr/synopsys/
+ls
+./setup.sh
+./fielzilla
+./filezilla
+ls -lah
+./bin/filezilla 
+./SynopsysInstaller_v5.5.run 
+./ibm-aspera-connect-3.11.2.63-linux-g2.12-64.sh 
+./batch_installer 
+ip a
+python3 -m http.server
+python -m http.server
+python -m SimpleHTTPServer
+ufw list
+nftabls
+nftables
+iftables
+ss -tulpn
+exit
+chmod -x QuantumATK-T-2022.03-Linux64.bin 
+./QuantumATK-T-2022.03.bin
+pwd
+./QuantumATK-T-2022.03-Linux64.bin
+sudo ./QuantumATK-T-2022.03-Linux64.bin
+chmod 700 QuantumATK-T-2022.03-Linux64.bin 
+./QuantumATK-T-2022.03-Linux64.bin
+chmod 700 QuantumATK-S-2021.06-SP2-Linux64.bin 
+./QuantumATK-S-2021.06-SP2-Linux64.bin 
+ls -lah
+./sedit
+./swb
+df -h
+sudoyum install epel-release -y
+sudo yum install epel-release -y
+sudo kill 5090
+sudo yum install epel-release -y
+sudo yum install filezilla -y
+sudo yum remove filezilla
+exit
+touch README.txt
+./GENERICPCM 
+./pcmstudio 
+export STROOT=/opt/synopsys
+export LM_LICENSE_FILE=27013@synopsys.eece.maine.edu
+export STDB="$HOME/db"
+export STROOT=/usr/synopsys
+export PATH="$PATH:$STROOT/bin
+export PATH="$PATH:$STROOT/bin"
+echo $PATH
+sprocess -v
+sdevice -v
+
+pwd
+export $PATH="/home/emanetoglu/QuantumATK/QuantumATK-S-2021.06-SP2/bin:/usr/synopsys/QuantumATK-S-2021.06-SP2/bin:/usr/synopsys/QuantumATK-T-2022.03/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/emanetoglu/.local/bin:/home/emanetoglu/bin"
+export STROOT=/usr/synopsys/pcm_studio/T-2022.09/
+export PATH="$PATH:$STROOT/bin"
+echo $PATH
+export PATH="/home/emanetoglu/QuantumATK/QuantumATK-S-2021.06-SP2/bin:/usr/synopsys/QuantumATK-S-2021.06-SP2/bin:/usr/synopsys/QuantumATK-T-2022.03/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/emanetoglu/.local/bin:/home/emanetoglu/bin:/usr/synopsys/pcm_studio/T-2022.09/bin"
+echo $PATH
+export $PATH="/usr/synopsys/QuantumATK-S-2021.06-SP2/bin:/usr/synopsys/QuantumATK-T-2022.03/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/emanetoglu/.local/bin:/home/emanetoglu/bin:/usr/synopsys/pcm_studio/T-2022.09/bin"
+export PATH="/usr/synopsys/QuantumATK-S-2021.06-SP2/bin:/usr/synopsys/QuantumATK-T-2022.03/bin:/usr/lib64/qt-3.3/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/home/emanetoglu/.local/bin:/home/emanetoglu/bin:/usr/synopsys/pcm_studio/T-2022.09/bin"
+GENERICPCM
+pcmstudio
+echo $STROOT
+echo $STROOT$STDB
+echo $STDB
+echo $STROOT
+echo $LM_LICENSE_FILE
+echo $PATH
+exit
+ls -haul
+exit
+ln -s
+man ln
+ln -s synopsys-shortcut
+ln -s synopsys-shortcut /usr/synopsys
+man ln
+ln -s /usr/synopsys/ synopsys-shortcut
+ls
+exit
+./SynopsysInstaller_v5.5.run 
+exit
+ls -haul
+exit
+ls -lah
+ls -vvv
+ls -v
+man ls
+ls -lahu
+cd ..
+ls
+pwd
+exit
+find ./ -name license*
+exit
+chmod +x 700 QuantumATK-S-2021.06-SP2-Linux64.bin 
+chmod 700 QuantumATK-S-2021.06-SP2-Linux64.bin 
+./QuantumATK-S-2021.06-SP2-Linux64.bin 
+man find
+exit
+./setup.sh
+ls -lah /usr/synopsys/
+./setup.sh
+ls /opt/synopsys
+ls /usr/synopsys
+ls /usr/synopsys/pcm_studio/
+ls /usr/synopsys/pcm_studio/T-2022.09/
+ls /usr/synopsys/pcm_studio/T-2022.09/bin
+pwd
+exit
+./install_pcmstudio 
+./pcmstudio 
+./GENERICPCM 
+echo $LM_LICENSE_FILE
+exit
+ls -l
+ls -li
+exit
+ls -l
+pwd
+ls -li
+exit
+./pcmstudio 
+ls -li
+exit
+ls-l
+ls
+ls -l
+exit
+pwd
+ls -l
+man ls
+ls -li
+exit
+ls -li
+exit
+cd ..
+ls
+cd current
+ls
+ls -li
+nano .profile
+su
+exit
+./raphael_fx 
+exit
+./svisual
+exit
+./svisual 
+nano ~/.bashrc
+./svisual 
+su emanetoglu
+exit
+echo $path
+echo $PATH
+echo $STDB
+pcm_studio
+pcmstudio
+exit
+echo $PATH
+echo $STDB
+cat ~/.profile >> ~/.bashrc
+cat ~/.bashrc
+nano .bashrc
+su emanetoglu
+exit
+cd /usr/synopsys/pcm_studio/T-2022.09
+ls
+cd pcm_studio/
+ls
+cd current/
+ls
+./install_pcmstudio 
+sudo ./install_pcmstudio 
+less ~/.profile
+pwd
+./svisual
+sudo ./svisual
+./svisual
+history
+cd /usr/synopsys
+ls
+cd pcm_studio/
+ls
+cd T-2022.09/
+ls
+cd bin
+ls
+./pcmstudio 
+~
+cd ~
+pcmstudio
+cd -
+ls
+cd ../..
+ls
+cd ..
+ls
+cd sentaurus/
+ls
+cd T-2022.03/
+ls
+cd bin/
+ls
+./GENERIC
+pwd
+cd ../..
+ls
+cd T-2022.03/
+ls
+cd tcad/
+ls
+./current/
+ls
+cd ./current
+ls
+sudo ./install_sentaurus 
+;s
+ls
+cm manuals
+cd manuals
+ls
+cd PDFManual/
+ls
+firefox ./front.pdf
+pwd
+ls
+cd data/
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+cp -r tcad/ /usr/synopsys
+df -h
+pwd
+cd ../..
+ls
+rm -r ./tcad/
+df -h
+lsblk
+fdisk -l
+sudo fdisk -l
+sudo cryptsetup luksOpen /dev/nvme0n1 
+sudo cryptsetup luksOpen /dev/nvme0n1 crypt1
+man cryptsetup
+man vgscan
+sudo vgscan --mknodes
+sudo vgchange -ay
+resize2fs
+gnome-disk
+sudo lvdisplay
+lsblk
+fdisk -l
+sudo fdisk -l
+sudo e2fsck -f /dev/mapper/luks-6d86ce20-d0df-4242-a95a-ac8799b1085e 
+sudo e2fsck -f /dev/mapper/rhel-root
+sudo e2fsck -f /dev/mapper/rhel-swap
+ls
+cd /bedia
+cd /media
+ls
+lsblk
+cd /run/media/emanetoglu/
+ls
+cd RHEL-7_9\ SE/
+ls
+exit
+sudo cryptsetup status
+sudo cryptsetup status /dev/nvme0n1
+sudo cryptsetup status /dev/nvme0n1p3
+sudo cryptsetup status /dev/nvme0n1
+sudo cryptsetup status /dev/nvme0n1p1
+sudo cryptsetup status /dev/nvme0n1p2
+sudo cryptsetup status /dev/nvme0n1p3
+sudo cryptsetup status /dev/mapper/luks-6d86ce20-d0df-4242-a95a-ac8799b1085e
+sudo cryptsetup status 6d86ce20-d0df-4242-a95a-ac8799b1085e
+sudo cryptsetup status /dev/mapper/luks-6d86ce20-d0df-4242-a95a-ac8799b1085e
+sudo cryptsetup luksOpen /dev/mapper/luks-6d86ce20-d0df-4242-a95a-ac8799b1085e crypt1
+fdisk -l
+sudo fdisk -l
+lscpu
+lsmem
+sudo yum install gparted
+gparted
+lvs
+sudo lvs
+system-config-lvm
+sudo yum install system-config-lvm
+yum install gnome-disk-utility
+sudo yum install gnome-disk-utility
+gnome-disk-utility
+top
