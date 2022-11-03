@@ -1,0 +1,5 @@
+sudo modprobe dm-crypt
+sudo cryptsetup luksOpen /dev/nvme0n1p3 crypt1
+sudo vgscan --mknodes
+sudo vgchange -ay
+echo "done!"
